@@ -7,6 +7,7 @@
  *  TABLE OF CONTENTS - STYLE.CSS
  *
  * 	@Fonts
+ * 	@Text Styles & Themes
  * 	@Global
  * 	@Positioning
  * 	@Spacing
@@ -19,7 +20,6 @@
  *	@Backdrops & Backgrounds
  *	@Watermarks
  *	@CSS Animations
- * 	@Text Styles & Themes
  *	@Logo
  *	@Header, Menu & Navigation
  *	@Site Sections
@@ -27,21 +27,13 @@
  *
  */
 
- /*	###############################################	*/
- /* 	Global */
- /*	###############################################	*/
-
-
- /*	###############################################	*/
- /* 	Spacing */
- /*	###############################################	*/
-.fullscreen {
-  width:100%;
-  height:100vh;
-}
 
 /*	###############################################	*/
 /* 	Fonts */
+/*	###############################################	*/
+
+/*	###############################################	*/
+/* 	Text Styles */
 /*	###############################################	*/
 .whitetxt {
   color: white;
@@ -49,6 +41,19 @@
 .lighttxt {
   color: #999;
 }
+.greytxt {
+  color: #777;
+}
+.darktxt {
+  color:#333;
+}
+.darkertxt {
+  color:#222;
+}
+.blacktxt {
+  color:#000;
+}
+
 
 .leftjustified	{
 	text-align:left;
@@ -61,11 +66,64 @@
 }
 
 /*	###############################################	*/
-/* 	Backdrops & Backgrounds */
+/* 	Typography */
 /*	###############################################	*/
 
-.blackbg  {
-  background-color: #333;
+.hero_type h1	{
+	font-weight:400;
+	font-size:120px;
+	letter-spacing:2px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.hero_type h5	{
+	font-weight:700;
+	font-size:20px;
+	letter-spacing:3px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.contact_type h2 {
+  font-weight:400;
+	font-size:30px;
+  letter-spacing:2px;
+  margin-top:10px;
+	margin-bottom:10px;
+}
+.contact_type h5 {
+  font-weight:400;
+	font-size:16px;
+  letter-spacing:2px;
+  margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*	###############################################	*/
+/* 	Global */
+/*	###############################################	*/
+
+/*	###############################################	*/
+/* 	Positioning */
+/*	###############################################	*/
+.leftfloat 	{
+	float:left;
+}
+.rightfloat 	{
+	float:right;
+}
+.nofloat  {
+  float: none;
+}
+
+/*	###############################################	*/
+/* 	Spacing */
+/*	###############################################	*/
+
+.fullscreen {
+ width:100%;
+ height:100vh;
 }
 
 .centerouter	{
@@ -85,6 +143,53 @@
 }
 
 /*	###############################################	*/
+/* 	Columns */
+/*	###############################################	*/
+
+.col4 {
+  width:20%;
+  height:auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+/*	###############################################	*/
+/* 	Wrappers */
+/*	###############################################	*/
+
+.basicwrapper	{
+
+	max-width:900px;
+  width:400px;
+	width:80%;
+	margin:0 auto;
+
+  padding-top:40px;
+	padding-bottom:40px;
+
+}
+
+/*	###############################################	*/
+/* 	Backdrops & Backgrounds */
+/*	###############################################	*/
+.blackbg  {
+  background-color: #000;
+}
+.darkerbg  {
+  background-color: #111;
+}
+.darkbg  {
+  background-color: #333;
+}
+.lightbg  {
+  background-color: #999;
+}
+.whitebg  {
+  background-color: #fff;
+}
+
+
+/*	###############################################	*/
 /* 	Site Sections */
 /*	###############################################	*/
 
@@ -100,4 +205,14 @@ body  {
 	-o-transition:all 0.2s linear;
 	transition:all 0.2s linear;
 	/* color:#555; */
+}
+
+#hero {
+  width: 100%;
+  height: calc(100% - 200px);
+}
+
+#contact {
+  width: 100%;
+  height:200px;
 }
