@@ -1,0 +1,63 @@
+/* ODOZii Digital Design & Development */
+/*	###############################################	*/
+/* Website Designed by Francis Odozi Isibor */
+/*	###############################################	*/
+
+/*
+ *  TABLE OF CONTENTS - STYLE.CSS
+ *
+ * 	@Fonts
+ * 	@Global
+ * 	@Positioning
+ * 	@Spacing
+ *	@Columns
+ * 	@Special Properties
+ * 	@Blog Elements
+ * 	@Form Elements
+ * 	@Shop Elements
+ * 	@Wrappers
+ *	@Backdrops & Backgrounds
+ *	@Watermarks
+ *	@CSS Animations
+ * 	@Text Styles & Themes
+ *	@Logo
+ *	@Header, Menu & Navigation
+ *	@Site Sections
+ *	@Contact & Footer
+ *
+ */
+
+
+/*	###############################################	*/
+/* 	Fonts */
+/*	###############################################	*/
+
+
+.centerouter	{
+	display:table;
+
+	height:100%;
+	width:100%;
+}
+.centermiddle	{
+	display:table-cell;
+	vertical-align:middle;
+}
+.centerbottom	{
+  width:100%;
+	display:table-cell;
+	vertical-align: bottom;
+}
+
+body  {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+#main	{
+	width:100%;
+	-webkit-transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-o-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	color:#555;
+}
