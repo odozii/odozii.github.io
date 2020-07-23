@@ -27,11 +27,46 @@
  *
  */
 
+ /*	###############################################	*/
+ /* 	Global */
+ /*	###############################################	*/
+
+
+ /*	###############################################	*/
+ /* 	Spacing */
+ /*	###############################################	*/
+.fullscreen {
+  width:100%;
+  height:100vh;
+}
 
 /*	###############################################	*/
 /* 	Fonts */
 /*	###############################################	*/
+.whitetxt {
+  color: white;
+}
+.lighttxt {
+  color: #999;
+}
 
+.leftjustified	{
+	text-align:left;
+}
+.centerjustified	{
+	text-align:center;
+}
+.rightjustified	{
+	text-align:right;
+}
+
+/*	###############################################	*/
+/* 	Backdrops & Backgrounds */
+/*	###############################################	*/
+
+.blackbg  {
+  background-color: #333;
+}
 
 .centerouter	{
 	display:table;
@@ -49,8 +84,13 @@
 	vertical-align: bottom;
 }
 
+/*	###############################################	*/
+/* 	Site Sections */
+/*	###############################################	*/
+
 body  {
   font-family: 'Nunito Sans', sans-serif;
+  margin:0;
 }
 
 #main	{
@@ -59,5 +99,5 @@ body  {
 	-moz-transition:all 0.2s linear;
 	-o-transition:all 0.2s linear;
 	transition:all 0.2s linear;
-	color:#555;
+	/* color:#555; */
 }
